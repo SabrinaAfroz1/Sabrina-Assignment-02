@@ -59,8 +59,9 @@ header, .top{
     margin-top:28px;
 }
 
-.button{
+.top-button{
     text-decoration: none;
+    border:none;
    color: white; 
    background-color: #E02C6D;
    border-radius: 20px;
@@ -73,13 +74,15 @@ hr{
     margin-bottom: 20px;
     color: gray;
 }
+
+/*------- logo section ------- */
 .logos{
    width: 1000px;
    margin: auto;
    display: grid;
    grid-template-columns: repeat(7,1fr);
 }
-
+/*------------ collection section ---------*/
 .collection-item{
     margin-top: 100px;
 }
@@ -130,8 +133,56 @@ hr{
 }
 
 
+/* ----------Feature section---------- */
+.feature{
+    padding: 15px 10px;
+    display: flex;
+    margin-bottom: 40px;
+}
+.feature-info{
+ margin-left: 150px;
+}
 
 
+
+/*------- bottom part ----------*/
+.bottom{
+text-align: center;
+margin:80px 0;
+}
+
+.bottom input[type=text]{
+	border-radius:4px;
+	padding: 15px 25px;
+	width:180px;
+	border:1px solid black;
+    color:black;
+	margin-top:25px;
+}
+.bottom input[type=text]:focus{
+	 outline:none;
+	 background:#e28bab;
+}
+.bottom button, .feature button{
+    font-size: 16px;
+ background:#E02C6D;
+border:none;
+padding:16px 25px;
+color:white;
+font-weight:bold;
+border-radius:4px;
+}
+
+button:hover{
+    color:#E02C6D;
+    background:white;
+    border: 1px solid #E02C6D;
+    }
+    
+
+
+
+/* -----------footer style----------- */
 footer{
     padding: 10px 10px;
     font-weight: 200;
@@ -146,5 +197,12 @@ footer{
     color: white;
     padding: 2px 12px;
 }
+
+
+/* ------Responsive ---------- */
+
+
+
+
 
 
